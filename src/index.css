@@ -5,9 +5,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.col-md-5{
+  margin-top: 100px;
+  padding: 10px;
+  background-color: white;
+}
+
+input{
+  margin-top: 20px;
+  border-width: 3px !important;
+}
+
+button{
+  margin-top:  20px !important;
+  
+}
+p{
+  color: red;
+  font-weight: bold;
 }
